@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  const name = "Sai Kiran";
+  const name = "deva";
   const course = "B.Tech CSE";
   const greeting = `Hello, my name is ${name} and I am studying ${course}.`;
 
