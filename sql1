@@ -1,0 +1,17 @@
+SQL Code in database/database.sql:
+-- Create database
+CREATE DATABASE IF NOT EXISTS StudentDB;
+-- Use the created database
+USE StudentDB;
+-- Create 'students' table
+CREATE TABLE IF NOT EXISTS students (
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ name VARCHAR(100) NOT NULL,
+ age INT,
+ department VARCHAR(50)
+);
+-- Insert sample data
+INSERT INTO students (name, age, department) VALUES
+('Alice', 20, 'CSE'),
+('Bob', 22, 'ECE'),
+('Charlie', 21, 'MECH');
